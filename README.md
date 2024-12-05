@@ -59,4 +59,7 @@ Qt Creator：設計與開發 C++/Qt 專案。
 API 測試工具：如 Postman，用於測試天氣查詢 API。
 版本控制：Git/GitHub。
 
-以上有參考https://github.com/Externalizable/bongo.cat跟https://github.com/MMmmmoko/Bongo-Cat-Mver
+以上有參考
+https://github.com/Externalizable/bongo.cat
+
+https://github.com/MMmmmoko/Bongo-Cat-Mver
