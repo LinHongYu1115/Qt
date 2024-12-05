@@ -13,7 +13,8 @@ WASD 鍵盤動態顯示功能：保持原有 BongoCat 的互動特色。
 當前氣溫
 降雨機率
 PM2.5 指數
-其他相關資訊（如濕度、風速）。
+其他相關資訊（如濕度、風速）
+
 
 開發架構與技術規劃
 1. 使用技術
@@ -57,3 +58,5 @@ GUI 模組
 Qt Creator：設計與開發 C++/Qt 專案。
 API 測試工具：如 Postman，用於測試天氣查詢 API。
 版本控制：Git/GitHub。
+
+以上有參考https://github.com/Externalizable/bongo.cat跟https://github.com/MMmmmoko/Bongo-Cat-Mver
