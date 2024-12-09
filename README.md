@@ -59,7 +59,7 @@ Qt Creator：用於設計與開發 C++/Qt 專案。
 版本控制：Git/GitHub。
 
 以上有參考
-https://github.com/Externalizable/bongo.cat
-參考喵喵叫的部分
-https://github.com/MMmmmoko/Bongo-Cat-Mver
+
+
+參考喵喵叫的部分https://github.com/Externalizable/bongo.cat
 
