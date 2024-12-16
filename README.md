@@ -70,6 +70,7 @@ https://github.com/Externalizable/bongo.cat
 https://bongo.cat/
 
 我要確認你有看
+你個SB
 
 聚集功能描述：
 聚集功能是為應用程式增添的一項創新互動特性，用於展示「按鍵組合」效果。用戶按下特定鍵組合（例如 Shift + W 或 Ctrl + A），BongoCat 將執行特殊動畫或音效反應，進一步提升趣味性與互動性。
