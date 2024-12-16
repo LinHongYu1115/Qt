@@ -296,4 +296,6 @@ ViewManager 模組：
 新增功能展示區：
 
 在 MainWindow 新增 QLabel，顯示可用的聚集按鍵組合與效果描述。
+你在狗叫甚麼?
+
 
