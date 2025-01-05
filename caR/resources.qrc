@@ -1,5 +1,10 @@
 <RCC>
     <qresource prefix="/">
-        <file>image/cat.png</file>
+        <file>image/catW.png</file>
+        <file>image/catA.png</file>
+        <file>image/catS.png</file>
+        <file>image/catD.png</file>
+        <file>image/wait.png</file>
+        <file>image/pipefalling-sound.mp3</file> <!-- 新增的音效資源 -->
     </qresource>
 </RCC>

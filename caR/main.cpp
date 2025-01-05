@@ -1,11 +1,13 @@
+#include <QApplication>
+#include <QMainWindow>
 #include "mainwindow.h"
 
-#include <QApplication>
+int main(int argc, char *argv[]) {
+    QApplication app(argc, argv);
 
-int main(int argc, char *argv[])
-{
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
-    return a.exec();
+    MainWindow mainWindow;
+    mainWindow.show();
+    mainWindow.setFocus(); // 設置主窗口的焦點
+
+    return app.exec();
 }

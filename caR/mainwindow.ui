@@ -14,39 +14,13 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>50</y>
-      <width>100</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Click Me</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>100</y>
-      <width>200</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Hello, World!</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="imageLabel">
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>150</y>
-      <width>200</width>
-      <height>200</height>
+      <y>50</y>
+      <width>700</width>
+      <height>500</height>
      </rect>
     </property>
     <property name="text">

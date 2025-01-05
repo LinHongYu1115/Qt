@@ -14,7 +14,6 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
-#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
 
@@ -24,8 +23,6 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QPushButton *pushButton;
-    QLabel *label;
     QLabel *imageLabel;
     QMenuBar *menubar;
     QStatusBar *statusbar;
@@ -37,15 +34,9 @@ public:
         MainWindow->resize(800, 600);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        pushButton = new QPushButton(centralwidget);
-        pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(50, 50, 100, 30));
-        label = new QLabel(centralwidget);
-        label->setObjectName("label");
-        label->setGeometry(QRect(50, 100, 200, 30));
         imageLabel = new QLabel(centralwidget);
         imageLabel->setObjectName("imageLabel");
-        imageLabel->setGeometry(QRect(50, 150, 200, 200));
+        imageLabel->setGeometry(QRect(50, 50, 700, 500));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -63,8 +54,6 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        pushButton->setText(QCoreApplication::translate("MainWindow", "Click Me", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "Hello, World!", nullptr));
         imageLabel->setText(QString());
     } // retranslateUi
 
