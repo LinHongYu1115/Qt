@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QStringList> // 添加 QStringList 頭文件
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -22,5 +23,6 @@ protected:
 
 private:
     Ui::MainWindow *ui;
+    QStringList keySequence; // 新增成員變數來記錄按鍵序列
 };
 #endif // MAINWINDOW_H
